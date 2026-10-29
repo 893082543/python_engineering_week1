@@ -1,0 +1,17 @@
+# 忽略虚拟环境文件夹（千万别传上去，里面几万个文件）
+ai_agent_week1/
+venv/
+env/
+
+# 忽略 Python 运行产生的缓存文件
+__pycache__/
+*.py[cod]
+
+# 忽略测试工具产生的缓存
+.pytest_cache/
+
+# 忽略你本地的测试数据（如果你不想把 csv 传上去的话）
+*.csv
+
+# 忽略 VS Code 的配置文件夹
+.vscode/
