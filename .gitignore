@@ -7,6 +7,9 @@ env/
 __pycache__/
 *.py[cod]
 
+# 忽略环境变量文件（绝对不能传，里面可能有密码和 API Key）
+.env
+
 # 忽略测试工具产生的缓存
 .pytest_cache/
 
